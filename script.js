@@ -1,0 +1,30 @@
+/***************************************
+ * Part 1: Understanding and Creating Objects
+ ***************************************/
+const student = {
+  // Basic properties
+  name: 'Alice',
+  age: 22,
+  enrolled: true,
+  courses: ['JavaScript', 'HTML', 'CSS'],
+  
+  //  display basic student info
+  displayInfo() {
+    return `${this.name} is ${this.age} years old and enrollment status: ${this.enrolled}`;
+  },
+  
+  // add a new course to the courses array
+  addCourse(newCourse) {
+    this.courses.push(newCourse);
+  },
+  
+  // calculate and return the total number of courses
+  getTotalCourses() {
+    return this.courses.length;
+  }
+};
+
+// console.log to output result
+console.log("Student Name:", student.name);
+console.log("Student Age:", student.age);
+console.log("Basic Student Info:", student.displayInfo());
