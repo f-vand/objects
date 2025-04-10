@@ -28,3 +28,15 @@ const student = {
 console.log("Student Name:", student.name);
 console.log("Student Age:", student.age);
 console.log("Basic Student Info:", student.displayInfo());
+
+/***************************************
+ * Part 2: Working with JSON
+ ***************************************/
+// Convert student object into a JSON string
+const studentJSON = JSON.stringify(student);
+console.log("Student as JSON:", studentJSON);
+
+// Convert JSON string back into a JavaScript object
+
+const parsedStudent = JSON.parse(studentJSON);
+console.log("Parsed Student Object:", parsedStudent);
