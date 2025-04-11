@@ -70,3 +70,13 @@ console.log("Cloned Student with Graduation Year:", studentClone);
 const newCourses = ['Python', 'SQL'];
 const mergedCourses = [...student.courses, ...newCourses];
 console.log("Merged Courses Array:", mergedCourses);
+
+/***************************************
+ * Part 5: Object Methods (Dynamic Data Handling)
+ ***************************************/
+// add a new course
+student.addCourse('.Net');
+console.log("Courses after adding '.Net':", student.courses);
+
+// total number of courses
+console.log("Total number of courses:", student.getTotalCourses());
