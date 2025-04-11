@@ -59,3 +59,10 @@ console.log("First Score:", firstScore);
 console.log("Second Score:", secondScore);
 
 
+/***************************************
+ * Part 4: The Spread Operator
+ ***************************************/
+// Clone the student object using the spread operator and add a new property
+const studentClone = { ...student, graduationYear: 2025 };
+console.log("Cloned Student with Graduation Year:", studentClone);
+
