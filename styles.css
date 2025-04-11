@@ -1,3 +1,4 @@
+/* Basic reset and styling for body */
 body {
     font-family: 'Arial', sans-serif;
     background-color: #f9f9f9;
@@ -11,4 +12,23 @@ body {
     text-align: center;
     color: #444;
     margin-bottom: 20px;
+  }
+  
+  /* Output container styling */
+  #output {
+    max-width: 800px;
+    margin: 20px auto;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  /* Each output paragraph styling */
+  #output p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+    margin: 10px 0;
   }
