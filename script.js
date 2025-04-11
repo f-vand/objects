@@ -40,3 +40,11 @@ console.log("Student as JSON:", studentJSON);
 
 const parsedStudent = JSON.parse(studentJSON);
 console.log("Parsed Student Object:", parsedStudent);
+
+/***************************************
+ * Part 3: Using Destructuring Assignment
+ ***************************************/
+// Destructure properties from the student object
+const { name, courses } = student;
+console.log("Destructured Name:", name);
+console.log("Destructured Courses:", courses);
