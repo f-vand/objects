@@ -66,3 +66,7 @@ console.log("Second Score:", secondScore);
 const studentClone = { ...student, graduationYear: 2025 };
 console.log("Cloned Student with Graduation Year:", studentClone);
 
+// Merge two arrays: combine student.courses with a new array of courses
+const newCourses = ['Python', 'SQL'];
+const mergedCourses = [...student.courses, ...newCourses];
+console.log("Merged Courses Array:", mergedCourses);
