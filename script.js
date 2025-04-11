@@ -80,3 +80,11 @@ console.log("Courses after adding '.Net':", student.courses);
 
 // total number of courses
 console.log("Total number of courses:", student.getTotalCourses());
+
+/***************************************
+ * Bonus Task: Calculate the Average Score
+ ***************************************/
+// Use the reduce method to calculate the sum of the scores
+const totalScore = scores.reduce((sum, score) => sum + score, 0);
+const averageScore = totalScore / scores.length;
+console.log("Average Score:", averageScore);
