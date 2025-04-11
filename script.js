@@ -48,3 +48,14 @@ console.log("Parsed Student Object:", parsedStudent);
 const { name, courses } = student;
 console.log("Destructured Name:", name);
 console.log("Destructured Courses:", courses);
+
+// Create an array of scores
+const scores = [85, 92, 78, 90];
+console.log("Scores:", scores);
+
+// Destructure the first two scores from the array
+const [firstScore, secondScore] = scores;
+console.log("First Score:", firstScore);
+console.log("Second Score:", secondScore);
+
+
